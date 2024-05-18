@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
   }
-  to {
-    transform: rotate(360deg);
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
-}
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+    
+       .a video{
+        position: relative;
+       }
+       .jtitle{
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        text-align: center;
+  
+     
+       }
+  
+       .sinput{
+        position: absolute;
+        top: 50%;
+        left: 23%;
+        width: 50rem;
+       }
+       .sinput input{
+        padding: 2rem;
+        border: none;
+        border-radius: 10px;
+       }
+      
+       .sinput span{
+        border-radius: 0px 10px 10px 0px;
+       }
+  
+       .fullscreen-bg__video {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: translateX(-50%) translateY(-50%);
+      }
+  
+      .job-listing {
+        padding: 25px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        
+      }
+      .job-listing:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+      }
+  
+      .tsado{
+       text-shadow: rgba(189, 182, 182, 0.721) 1px 0 10px;;
+      }
+  
+    .sigheigth{
+    
+      height: 100vh;
+      gap: 1rem;
+    }
+    .sigheigth img{
+      height: 115vh;
+      width: 100%;
+      border-radius: .5rem;
+    }
+    div.sigform{
+     
+      width: 50%;
+    }
+      
